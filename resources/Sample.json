@@ -1,0 +1,31 @@
+{
+	"version": "0.0.1",
+	"timestamp": "##TIMESTAMP##",
+	"event-code": "##EVENT-CODE## Refer Table Below",
+	"event-meta": {
+		"yarnId": "YARN Application ID"
+	},
+	"event-status": "RED/GREEN",
+	"tags": {
+		"correlationContext": {
+			"runID": "##Correlation ID for the Business Process##(Automic Workflow)",
+			"processName": "#User Defined Process Name##",
+			"agentName": "Agent that is running - For Now Hardcoded to AUTOMIC"
+		},
+		"domain": "##Domain that the Workflow is running on ##",
+
+
+
+		"instanceID": "Id for the Currently Running Instance(Automic Job)",
+		"data-pipeline-product": "##Product Line Defined Below##",
+		"customTag": "##Tags Defined by the User in YAML when setting up the Job",
+		"customTag1": "##For Future Use##",
+		"customTag2": "##For Future Use##",
+		"dc": "##DC where Instance is present##",
+		"env": "##Env where Instance is running##",
+		"host": "##Host name##"
+	},
+
+	"ttl": "Time to Live"
+
+}
